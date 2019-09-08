@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  font-family: Segoe UI Light, sans-serif;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// Gray colors
+$gray-light: #f4f4f4;
+$gray: #bebebe;
+$gray-semi-dark: #545454;
+$gray-dark: #363636;
+$gray-extra-dark: #212121;

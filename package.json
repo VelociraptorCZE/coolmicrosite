@@ -1,0 +1,24 @@
+{
+  "name": "coolmicrosite",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "npx webpack && next build",
+    "start": "next start -p $PORT"
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-optional-chaining": "7.2.0",
+    "@babel/core": "7.5.5",
+    "@babel/preset-env": "7.5.5",
+    "@zeit/next-sass": "1.0.1",
+    "@zeit/next-css": "1.0.1",
+    "formdata-polyfill": "3.0.19",
+    "next": "^9.0.2",
+    "node-sass": "4.12.0",
+    "minilazyload": "2.1.5",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "webpack": "4.39.3",
+    "webpack-cli": "3.3.8"
+  }
+}

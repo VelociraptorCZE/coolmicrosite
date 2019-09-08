@@ -1,0 +1,47 @@
+@import "../variables";
+
+.modal {
+  &__outer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .9);
+    animation: 1s fade forwards;
+  }
+
+  &__inner {
+    width: fit-content;
+    height: fit-content;
+    background: #fff;
+    padding: 1rem;
+    overflow: auto;
+    max-height: 80vh;
+    position: relative;
+  }
+
+  &__input {
+    margin: .7rem 0;
+    padding: .3rem;
+    width: 100%;
+    border: 1px solid $gray;
+    border-radius: 5px;
+  }
+
+  &__close {
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-weight: 700;
+    transform: scaleX(1.4);
+
+    &::after {
+      content: "x";
+    }
+  }
+}

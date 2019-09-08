@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: Segoe UI Light, sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.vert-center {
+    align-items: center;
+}
+
+.hor-center {
+    justify-content: center;
+}
+
+.shadow {
+    box-shadow: 2px 2px 6px rgba(80, 80, 80, .6);
+}
+
+.block {
+    display: block;
+}
+
+.align-block-right {
+    margin-left: auto;
+}
+
+.align-block-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.align-text-right {
+    text-align: right;
+}
+
+.align-text-center {
+    text-align: center;
+}
